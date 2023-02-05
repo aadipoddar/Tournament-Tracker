@@ -69,8 +69,6 @@ namespace TrackerLibrary.DataAccess.TextHelpers
 
 
 
-
-
         public static void SaveToPrizeFile(this List<PrizeModel> models, string fileName)
         {
             List<string> lines = new List<string>();
