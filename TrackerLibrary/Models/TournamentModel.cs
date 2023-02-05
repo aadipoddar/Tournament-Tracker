@@ -1,4 +1,4 @@
-﻿namespace TrackerLibrary
+﻿namespace TrackerLibrary.Models
 {
     /// <summary>
     /// Represents one tournament, with all of the rounds, matchups, prizes and outcomes.
