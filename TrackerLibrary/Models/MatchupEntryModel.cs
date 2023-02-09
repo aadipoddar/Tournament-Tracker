@@ -6,6 +6,11 @@
     public class MatchupEntryModel
     {
         /// <summary>
+        /// Represents the unique identifier for the matchup entry
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// Represents One Team in the Matchup
         /// </summary>
         public TeamModel TeamCompeting { get; set; }

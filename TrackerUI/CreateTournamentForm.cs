@@ -130,6 +130,8 @@ namespace TrackerUI
             // Create all of team entries
             GlobalConfig.Connection.CreateTournament(tm);
 
+            tournamentNameLabel.Text = "";
+            entryFeeValue.Text = "0";
         }
     }
 }
