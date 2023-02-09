@@ -11,6 +11,11 @@
         public int Id { get; set; }
 
         /// <summary>
+        /// Th unique identifier for the team
+        /// </summary>
+        public int TeamCompetingId { get; set; }
+
+        /// <summary>
         /// Represents One Team in the Matchup
         /// </summary>
         public TeamModel TeamCompeting { get; set; }
@@ -19,6 +24,11 @@
         /// Represents the score for this Particular Team
         /// </summary>
         public double Score { get; set; }
+
+        /// <summary>
+        /// The unique identifier for the parent matchup (team)
+        /// </summary>
+        public int ParentMatchupId { get; set; }
 
         /// <summary>
         /// Represents the matchup that this team came
